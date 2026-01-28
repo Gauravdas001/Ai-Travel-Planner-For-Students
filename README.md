@@ -2,8 +2,6 @@
 
 A Generative AI–powered travel planning application that helps students create personalized, budget-friendly, day-wise itineraries using real-time information and structured AI workflows.
 
-⸻
-
 ✨ What this project does
 	•	Takes destination, budget, interests, and travel dates
 	•	Fetches real-time destination info & weather
@@ -11,8 +9,6 @@ A Generative AI–powered travel planning application that helps students create
 	•	Presents results in a clean Streamlit web interface
 
 Built to demonstrate practical GenAI + workflow orchestration, not just a single LLM call.
-
-⸻
 
 🧠 How it works (High-level)
 
@@ -30,8 +26,6 @@ Formatted Output
 Final Travel Plan
 
 
-⸻
-
 🚀 Features
 	•	✅ Personalized itineraries
 	•	✅ Budget-aware planning (student-focused)
@@ -40,8 +34,6 @@ Final Travel Plan
 	•	✅ Weather information
 	•	✅ Modular, explainable AI workflow
 
-⸻
-
 🛠️ Tech Stack
 	•	Python
 	•	Streamlit – Web UI
@@ -49,8 +41,6 @@ Final Travel Plan
 	•	Google Gemini – Generative AI
 	•	Tavily API – Search & weather data
 	•	dotenv – Secure environment variables
-
-⸻
 
 📂 Project Structure
 
@@ -63,8 +53,6 @@ Final Travel Plan
 ├── README.md           # Documentation
 
 
-⸻
-
 ⚙️ Setup & Installation
 
 1️⃣ Clone the repository
@@ -73,15 +61,10 @@ git clone <repository-url>
 cd AI-Travel-Planner-For-Students
 
 
-⸻
-
 2️⃣ Create & activate a virtual environment
 
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
-
-
-⸻
 
 3️⃣ Install dependencies
 
@@ -89,16 +72,12 @@ python -m pip install -r requirements.txt
 
 You can also install dependencies from pyproject.toml if preferred.
 
-⸻
-
 4️⃣ Configure environment variables
 
 Create a .env file in the project root:
 
 GOOGLE_API_KEY=your_gemini_api_key
 TAVILY_API_KEY=your_tavily_api_key
-
-⸻
 
 5️⃣ Run the application
 
@@ -109,9 +88,6 @@ streamlit run app.py
 CLI test runner
 
 python run.py
-
-
-⸻
 
 🧪 Example
 
@@ -126,15 +102,11 @@ Output
 	•	Budget-aware activities
 	•	Weather summary
 
-⸻
-
 🎯 Use cases
 	•	Students planning low-budget trips
 	•	GenAI + workflow orchestration demos
 	•	Internship / academic projects
 	•	Learning LangGraph with real APIs
-
-⸻
 
 🔮 Future Improvements
 	•	Hostel & hotel price prediction
@@ -142,8 +114,6 @@ Output
 	•	Multi-language support
 	•	User accounts & saved trips
 	•	Mobile-friendly deployment
-
-⸻
 
 🤝 Contributing
 
@@ -153,13 +123,9 @@ Contributions are welcome!
 	3.	Commit your changes
 	4.	Open a pull request
 
-⸻
-
 📄 License
 
 This project is licensed under the MIT License.
-
-⸻
 
 👤 Author
 
